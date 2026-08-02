@@ -4,6 +4,18 @@ Message Notification Router -- entry point.
 
 Usage:
     python code/main.py [--dataset-dir DATASET_DIR] [--out OUT_CSV]
+
+Reads dataset/messages.csv plus all provided context files (users, groups,
+group_members, business_accounts, user_business_history, message_history,
+message_events, images, voice_notes, daily_notification_summary) and writes
+one prediction row per message to dataset/output.csv (or --out), with the
+required columns:
+
+    message_id,action,message_type,reason,confidence,evidence_message_ids
+
+No network calls, no API keys, fully deterministic given the dataset and the
+media_cache.json shipped alongside this code (see README.md for how that
+cache was built and how to regenerate/extend it).
 """
 from __future__ import annotations
 

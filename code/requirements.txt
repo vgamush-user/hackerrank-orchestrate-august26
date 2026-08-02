@@ -1,0 +1,2 @@
+scikit-learn>=1.0   # TF-IDF evidence-similarity ranking (router/evidence.py) -- required at runtime
+pandas>=1.5          # only used by validate_output.py for the submission-format check

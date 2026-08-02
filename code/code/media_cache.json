@@ -1,0 +1,207 @@
+{
+  "img_002": {
+    "media_type": "image",
+    "ocr_text": "WATCH THE BIGGEST CINEMATIC EPIC IN 4DX | MX4D. AT AN UNBEATABLE PRICE. TICKETS NOW STARTING AT Rs 199. ONLY ON 21ST JUL'26. THE ODYSSEY 17.07.26. PVR INOX. FOR BOOKINGS VISIT PVR OR INOX WEBSITE/APP.",
+    "description": "Generic PVR/INOX movie-ticket promo poster for 'The Odyssey', dated 21 Jul '26 (a stale/expired offer relative to late-July/Aug sends).",
+    "flags": [
+      "stale_promo_poster_unrelated_to_caption",
+      "no_qr_or_payment_graphic"
+    ],
+    "extraction_confidence": 0.9,
+    "notes": "Caption for the message using this media (msg_064) claims 'Refund approved for your ticket. Verify wallet and card details before midnight' - this is NOT a refund confirmation, it is a generic expired PVR/INOX ad poster. Poster content does not support the refund/verification claim in the text -> classic bait-and-switch: unrelated legitimate-looking image + urgent payment-verification request from a non-business group sender."
+  },
+  "img_003": {
+    "media_type": "image",
+    "ocr_text": "LADAKH TOUR PACKAGES. EXPERIENCE THE MAGIC OF LADAKH. UP TO 40% OFF. SIGHTSEEING, TRANSFERS, MEALS, STAY. BOOK NOW. +91 98056 07657. 20K+ Travellers, 10K+ Hotels, 5K+ Tours, 06+ Offices. www.happyholidayers.com",
+    "description": "Travel agency poster branded 'Happy Holidayers', not 'Thrillophilia' (the declared business_092 brand/display name).",
+    "flags": [
+      "brand_name_on_poster_differs_from_business_display_name"
+    ],
+    "extraction_confidence": 0.85,
+    "notes": "business_092 (Thrillophilia) also uses domain_used_by_sender=link.wame.pro which does not match official_domain thrillophilia.com. Poster brand 'Happy Holidayers' does not match either name. Treat as a moderate promo/branding-mismatch signal, not a hard scam (verified=1, no payment/OTP ask, has unsubscribe path)."
+  },
+  "img_004": {
+    "media_type": "image",
+    "ocr_text": "Incident Review. Friday, August 7, 12:00-12:50pm. Take meeting notes. 3 guests, 1 yes virtually, 2 awaiting. Shloka Shah (Organizer), Akarsh Jain, Pawan K. 10 minutes before.",
+    "description": "Screenshot of a real Google Calendar event invite for a work meeting titled 'Incident Review' with named attendees.",
+    "flags": [
+      "corroborates_work_context",
+      "no_risk_signal"
+    ],
+    "extraction_confidence": 0.92,
+    "notes": "Supports msg_031 ('7 PM sync is still on... close action items tonight') as a genuine coworker/work-context message - the screenshot is real calendar content, reinforcing legitimacy and urgency of the coworker group update."
+  },
+  "img_007": {
+    "media_type": "image",
+    "ocr_text": "JioMart (logo on a kraft paper shopping bag).",
+    "description": "Photo of a JioMart-branded shopping bag on a table.",
+    "flags": [
+      "brand_mismatch:business_declares_Shopee_photo_shows_JioMart"
+    ],
+    "extraction_confidence": 0.9,
+    "notes": "business_060 is Shopee (verified=1, domain matches shopee.sg). The attached photo shows an unrelated JioMart bag, not Shopee packaging. Business account itself checks out (verified + domain match), so treat as a minor content-inconsistency, not escalate to scam by itself -- but do not use the image as corroborating evidence of a Shopee pickup."
+  },
+  "img_008": {
+    "media_type": "image",
+    "ocr_text": null,
+    "description": "Photo of a clothing rack with women's tops/kurtas hanging, informal resale/marketplace-style photo, no text overlay.",
+    "flags": [
+      "generic_resale_photo_reused_across_listings"
+    ],
+    "extraction_confidence": 0.85,
+    "notes": "Same media_id is reused across multiple marketplace messages (denim jacket hold, kurta set sale) from sender u_048 - consistent with an informal peer-to-peer resale group reusing a generic stock/rack photo rather than a photo of the specific item, a mild low-effort/spam-adjacent signal to weigh against repetition history."
+  },
+  "img_010": {
+    "media_type": "image",
+    "ocr_text": "amazon Prime Day. UP TO 60% OFF. 2X CASHBACK. 24-30 JUNE. UP TO 11.2% CASHBACK EXCLUSIVE ON ShopCash.",
+    "description": "Amazon Prime Day promo banner (Amazon logo, ShopCash cashback branding).",
+    "flags": [
+      "brand_mismatch:business_declares_Target_creative_shows_Amazon",
+      "stale_date_window_24_30_june"
+    ],
+    "extraction_confidence": 0.92,
+    "notes": "business_067 is declared as Target (verified=1, domain target.com matches) but the sent creative is an Amazon Prime Day cashback banner for a past date window (24-30 June), unrelated to Target. Brand-identity mismatch between declared business and creative content is a real-world impersonation/relevance red flag even though the account record itself looks verified -- treat as reducing trust in the specific message content, message_type promotion/spam rather than a trustworthy Target update."
+  },
+  "img_011": {
+    "media_type": "image",
+    "ocr_text": "FIELD TRIP CONSENT FORM. ___ has permission to participate in a planned field trip activity. TRIP DESTINATION, DATE, DEPARTURE TIME, RETURN TIME, Transportation provided by school bus/student. Signature of Parent/Guardian, Date of Signature, Address, Telephone Number. Board of Education, Swartz Creek Community Schools.",
+    "description": "Blank school field-trip consent form template (two copies on one page).",
+    "flags": [
+      "corroborates_school_context",
+      "no_risk_signal"
+    ],
+    "extraction_confidence": 0.93,
+    "notes": "Supports msg_077 ('School circular attached for tomorrow's field trip... sign consent') as a genuine, actionable school administrative document."
+  },
+  "img_012": {
+    "media_type": "image",
+    "ocr_text": "INDIAN INSTITUTE OF TECHNOLOGY BOMBAY. INDUSTRIAL RESEARCH AND CONSULTANCY CENTER (IRCC). IIT BOMBAY RESEARCH INTERNSHIP 2023-24. Eligibility... For any enquiry: internship@ircc.iitb.ac.in.",
+    "description": "Official-looking IIT Bombay IRCC internship announcement flyer, dated for the 2023-24 cycle.",
+    "flags": [
+      "stale_cycle_year_but_topically_consistent"
+    ],
+    "extraction_confidence": 0.88,
+    "notes": "Supports msg_060 ('Reminder from Faculty Advising: internship approval forms close at 5 PM today') as a plausible, topically-consistent academic notice, even though the flyer itself references an older internship cycle (2023-24) -- likely a reused reference image rather than a scam signal, no payment/link/OTP ask."
+  },
+  "img_023": {
+    "media_type": "image",
+    "ocr_text": "MISSING PERSON. Missing from: 4-11-2025. AGE: 16. NAME: MELWYN. Door number 9 first Amani first cross Kasturi Nagar East of NGEF. Landmark Hyderabad Irani tea shop. Plz help contacts: 7348978260 / 9686674558 / 9741011528. MISSING PERSON.",
+    "description": "A 'missing person' poster for a named minor, completely unrelated to the message caption.",
+    "flags": [
+      "media_content_mismatch_with_caption"
+    ],
+    "extraction_confidence": 0.9,
+    "notes": "msg_062's caption is a routine building fire-alarm-test notice ('Fire alarm test tomorrow 9 AM to 11 AM... No evacuation required'). The attached image is an unrelated missing-person poster. This looks like a data/attachment mismatch rather than a risk signal -- the message text itself is the reliable signal here (informational building notice), the image should be treated as non-corroborating/irrelevant rather than escalating risk, since there is no solicitation, payment ask, or manipulation in either the text or image."
+  },
+  "img_024": {
+    "media_type": "image",
+    "ocr_text": "Nifty 50 - D - 1% - CMP: 15863.20(-2.35%) - 07-03-2022. Nifty 50, Spot, Daily, 1% Brick Size, Renko Chart. Price breaks the prior swing low which is a sign of bearishness. The negative crossover in the moving averages confirms short-term weakness.",
+    "description": "Generic technical-analysis chart screenshot (Nifty 50 index, dated 2022), unrelated ticker to the caption's Nvidia/TSMC mention.",
+    "flags": [
+      "generic_template_chart_reused",
+      "no_risk_signal"
+    ],
+    "extraction_confidence": 0.85,
+    "notes": "Supports msg_053 ('Market note: Nvidia and TSMC... sharing research links... read after market') as informational finance-group chatter; the specific chart is a reused/generic template rather than fresh Nvidia/TSMC data, but there is no payment ask or urgency manipulation -- ordinary low-priority market commentary."
+  },
+  "img_025": {
+    "media_type": "image",
+    "ocr_text": "Ingoude Company. LAND PLOT FOR SALE. Secure your dream investment! Prime land plots available. strategic location, high value, future growth. Contact Us +123-456-7890 www.reallygreatsite.com",
+    "description": "Generic real-estate template flyer with obviously placeholder contact info and a Canva template placeholder domain (reallygreatsite.com), swampy/undeveloped aerial land photo.",
+    "flags": [
+      "placeholder_template_flyer",
+      "fake_or_generic_contact_details",
+      "advance_payment_request_in_caption"
+    ],
+    "extraction_confidence": 0.93,
+    "notes": "Supports msg_074 ('Pay Rs 11,000 token today to block 1200 sqft at launch price; registry papers will be shared after payment') -- the poster uses a stock Canva template with a placeholder phone number and 'reallygreatsite.com' placeholder domain, not a real registered developer/company identity. Combined with an upfront token-payment demand before any paperwork, this is a strong real-estate advance-fee scam pattern."
+  },
+  "vn_004": {
+    "media_type": "voice",
+    "duration_sec": 6.92,
+    "raw_asr_text": "height this is close with and support for days to go play with funky to instead of the main gate he is the twenty forty",
+    "flags": [
+      "low_confidence_asr",
+      "no_clear_risk_or_urgency_terms_detected"
+    ],
+    "extraction_confidence": 0.25,
+    "notes": "Short group voice note (~7s), offline ASR output is not coherent enough to trust literally; no payment/OTP/urgency keywords surfaced even loosely. Treat as ordinary low-signal group chatter unless sender/group history says otherwise."
+  },
+  "vn_005": {
+    "media_type": "voice",
+    "duration_sec": 7.86,
+    "raw_asr_text": "echo to our status by a team again these join the seed and go but it's an ahl him in something for july two wizards",
+    "flags": [
+      "low_confidence_asr",
+      "no_clear_risk_or_urgency_terms_detected"
+    ],
+    "extraction_confidence": 0.25,
+    "notes": "Short group voice note (~8s), garbled offline ASR, no reliable risk/urgency signal extracted; rely on sender/group metadata."
+  },
+  "vn_006": {
+    "media_type": "voice",
+    "duration_sec": 7.21,
+    "raw_asr_text": "he needs a bath and bloody no tomorrow mining ninety nine jan i just wanna get comments before it ends",
+    "flags": [
+      "low_confidence_asr",
+      "no_clear_risk_or_urgency_terms_detected"
+    ],
+    "extraction_confidence": 0.25,
+    "notes": "Short group voice note (~7s), garbled offline ASR, no reliable risk/urgency signal extracted; rely on sender/group metadata."
+  },
+  "vn_007": {
+    "media_type": "voice",
+    "duration_sec": 28.3,
+    "raw_asr_text": "[28s of largely incoherent offline ASR output, mentions of 'bank', 'account', 'cash back' fragments possible but not reliable]",
+    "flags": [
+      "low_confidence_asr",
+      "sender_is_verified_bank_business"
+    ],
+    "extraction_confidence": 0.2,
+    "notes": "From business_002 = HDFC Bank, verified=1, domain matches official (hdfc.bank.in). Longer voice note from a legitimately verified bank account -- treat sender legitimacy (verified + domain match) as the primary trust signal since transcript quality is too poor to confirm content; do not assume risk just because content is unclear."
+  },
+  "vn_008": {
+    "media_type": "voice",
+    "duration_sec": 5.46,
+    "raw_asr_text": "the bank account they built to be said you'll get the years eve so we can compete education to be cheeky",
+    "flags": [
+      "low_confidence_asr",
+      "mentions_bank_account_fragment",
+      "sender_is_unverified_impersonating_business"
+    ],
+    "extraction_confidence": 0.3,
+    "notes": "From business_033 = 'HDFC Bank Helpdesk', verified=0, domain_used_by_sender=hdfcbank-kyc.in (does NOT match official_domain hdfc.bank.in), account_age_days=20 (new), user_reports_30d=38 on only 651 messages_sent_30d (~5.8% report rate, high). This is a classic bank-impersonation scam account regardless of ASR quality -- business-account risk signals alone are sufficient for high-confidence scam classification."
+  },
+  "vn_009": {
+    "media_type": "voice",
+    "duration_sec": 7.05,
+    "raw_asr_text": "good luck to go to a tomato has one of those six fifteen am the guy with a loaded looking to mean the same",
+    "flags": [
+      "low_confidence_asr",
+      "sender_is_verified_business_with_domain_mismatch"
+    ],
+    "extraction_confidence": 0.25,
+    "notes": "From business_092 = Thrillophilia, verified=1 but domain_used_by_sender=link.wame.pro mismatches official_domain thrillophilia.com. Garbled ASR gives no reliable content; weigh the domain mismatch as a moderate promo-trust signal, not a hard scam signal."
+  },
+  "vn_012": {
+    "media_type": "voice",
+    "duration_sec": 5.38,
+    "raw_asr_text": "i've got the blue ejected aside for you if you still wanted the stuff i'm the flesh with someone else",
+    "flags": [
+      "low_confidence_asr_but_thematically_consistent"
+    ],
+    "extraction_confidence": 0.4,
+    "notes": "From sender u_048, the same peer sender behind the 'blue denim jacket... aside for you' and kurta-set resale text messages (img_008). Despite poor ASR, the fragments 'blue', 'aside for you', 'someone else [wants it]' are thematically consistent with an informal marketplace hold/negotiation, not a risk signal."
+  },
+  "vn_014": {
+    "media_type": "voice",
+    "duration_sec": 110.0,
+    "raw_asr_text": "[110s of largely incoherent offline ASR output -- unusually long voice note for a group chat]",
+    "flags": [
+      "low_confidence_asr",
+      "unusually_long_duration"
+    ],
+    "extraction_confidence": 0.15,
+    "notes": "A ~110-second voice note is unusually long for casual group chat; content could not be reliably transcribed offline. Treat as low-informativeness (neither confirmed useful nor confirmed risky) and lean on sender/group repetition history instead of content claims."
+  }
+}
