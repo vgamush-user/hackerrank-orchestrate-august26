@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,digest,business_update,User has recent activity history with this business; message asks the user for something specific.,0.48,message_0243;message_0102;message_0101
+msg_091,mute,scam,Message asks for OTP/PIN/login code or account verification; urgency is combined with a payment/credential ask (classic scam combo).,0.87,message_0238;message_0381
+msg_090,digest,personal,Direct personal message.,0.45,none
+msg_048,notify,urgent,Contains explicit time-pressure language.,0.68,message_0151;message_0152;message_0100
+msg_040,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0136;message_0135;message_0259
+msg_075,digest,business_update,User has recent activity history with this business; message asks the user for something specific.,0.48,message_0206;message_0205
+msg_005,notify,urgent,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.78,message_0065;message_0049;message_0382
+msg_104,notify,urgent,Contains explicit time-pressure language; direct personal message.,0.86,message_0224;message_0050;message_0383
+msg_069,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0080;message_0193;message_0177
+msg_107,mute,scam,Message text attempts to instruct the router directly (prompt-injection pattern); message asks for OTP/PIN/login code or account verification.,0.91,message_0369;message_0213;message_0056
+msg_070,digest,personal,Message asks the user for something specific; sender directly asks this user for a reply/action.,0.48,message_0369;message_0213;message_0056
+msg_003,notify,business_update,Contains explicit time-pressure language.,0.68,message_0031;message_0400;message_0061
+msg_099,digest,personal,Direct personal message.,0.48,message_0227;message_0118;message_0249
+msg_008,digest,business_update,User has an active relationship/opt-in with this business; message asks the user for something specific.,0.74,message_0296;message_0072;message_0071
+msg_092,digest,business_update,Message asks the user for something specific.,0.45,none
+msg_060,notify,urgent,Contains explicit time-pressure language.,0.68,message_0284;message_0176;message_0375
+msg_004,notify,event,Contains explicit time-pressure language.,0.68,message_0245;message_0005;message_0064
+msg_030,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0115;message_0335;message_0050
+msg_045,digest,personal,Message asks the user for something specific; sender directly asks this user for a reply/action.,0.48,message_0146;message_0145
+msg_052,mute,scam,Business account 'Talabat Refund Desk' is not verified; sender domain 'talabat-refund.com' does not match Talabat Refund Desk's official domain 'talabat.com'.,0.87,message_0208;message_0207;message_0159
+msg_009,mute,personal,User has muted this group.,0.48,message_0074;message_0073
+msg_071,digest,personal,Message asks the user for something specific; sender directly asks this user for a reply/action.,0.48,message_0197;message_0198
+msg_016,notify,urgent,Contains explicit time-pressure language.,0.68,message_0024;message_0087;message_0184
+msg_065,notify,promotion,Contains explicit time-pressure language.,0.68,message_0261;message_0186;message_0185
+msg_038,notify,forward,Contains explicit time-pressure language.,0.68,message_0132;message_0131
+msg_086,digest,business_update,User has an active relationship/opt-in with this business.,0.60,message_0222
+msg_014,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0017;message_0258;message_0018
+msg_094,digest,promotion,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.45,none
+msg_029,digest,forward,"Low-signal media message (Photo of a clothing rack with women's tops/kurtas hanging, informal resale/marketplace-style photo, no text overlay.); no urgency, strong usefulness, or risk detected.",0.48,message_0095;message_0113;message_0401
+msg_105,mute,forward,User has ignored/dismissed 2 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0233;message_0373
+msg_002,notify,event,"Sender directly asks this user for a reply/action; directly @mentions this user, overriding the group's usual quiet default.",0.73,message_0003;message_0266;message_0041
+msg_010,digest,business_update,User has recent activity history with this business; message asks the user for something specific.,0.48,message_0011;message_0242;message_0075
+msg_078,mute,forward,User has ignored/dismissed 2 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0211;message_0212
+msg_013,notify,urgent,Contains explicit time-pressure language.,0.68,message_0081;message_0082
+msg_018,notify,forward,Contains explicit time-pressure language.,0.68,message_0026;message_0092;message_0091
+msg_044,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0143;message_0144;message_0036
+msg_032,digest,personal,Sent by a group admin.,0.48,message_0119;message_0285;message_0374
+msg_106,notify,urgent,Contains explicit time-pressure language; direct personal message.,0.76,message_0234;message_0376;message_0377
+msg_006,notify,event,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.83,message_0029;message_0044;message_0067
+msg_109,mute,scam,Message text attempts to instruct the router directly (prompt-injection pattern); message pressures an urgent/upfront payment.,0.95,message_0151;message_0152;message_0237
+msg_108,mute,scam,Message asks for OTP/PIN/login code or account verification; urgency is combined with a payment/credential ask (classic scam combo).,0.95,message_0094;message_0093;message_0236
+msg_019,mute,scam,Business account 'Chase Security Center' is not verified; sender domain 'chase-secure-alert.com' does not match Chase Security Center's official domain 'chase.com'.,0.87,message_0094;message_0093;message_0236
+msg_088,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0224;message_0115;message_0232
+msg_056,notify,event,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.88,message_0359;message_0226;message_0054
+msg_027,digest,event,User has an active relationship/opt-in with this business; message asks the user for something specific.,0.74,message_0272;message_0033;message_0007
+msg_050,notify,event,Contains explicit time-pressure language.,0.68,message_0279;message_0155;message_0156
+msg_083,digest,unknown,"Low-signal media message (voice note, 7.21s); no urgency, strong usefulness, or risk detected.",0.40,message_0219
+msg_063,notify,urgent,Contains explicit time-pressure language.,0.68,message_0182;message_0181
+msg_033,digest,greeting,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0121;message_0409;message_0280
+msg_061,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0080;message_0193;message_0177
+msg_020,notify,urgent,Contains explicit time-pressure language.,0.68,message_0114;message_0096;message_0095
+msg_017,mute,spam,User has ignored/dismissed 2 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0090;message_0089
+msg_058,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0040;message_0241;message_0039
+msg_026,mute,scam,Message pushes a suspicious link/QR/domain; business account 'Amazon Delivery Support' is not verified.,0.95,message_0032;message_0107;message_0108
+msg_047,digest,event,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0151;message_0068;message_0098
+msg_046,mute,scam,Message asks for OTP/PIN/login code or account verification; urgency is combined with a payment/credential ask (classic scam combo).,0.87,message_0148;message_0147
+msg_042,mute,scam,Message asks for OTP/PIN/login code or account verification; urgency is combined with a payment/credential ask (classic scam combo).,0.87,message_0140;message_0058;message_0057
+msg_079,digest,personal,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0369;message_0045;message_0023
+msg_098,digest,event,Direct personal message.,0.48,message_0168;message_0359;message_0226
+msg_037,digest,personal,Sent by a group admin.,0.48,message_0001;message_0410;message_0271
+msg_007,digest,personal,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0070;message_0069
+msg_085,mute,scam,Business account 'HDFC Bank Helpdesk' is not verified; sender domain 'hdfcbank-kyc.in' does not match HDFC Bank Helpdesk's official domain 'hdfc.bank.in'.,0.79,message_0221
+msg_001,notify,urgent,Contains explicit time-pressure language.,0.68,message_0057;message_0139;message_0240
+msg_021,notify,payment,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.83,message_0029;message_0044;message_0068
+msg_028,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0034;message_0112;message_0111
+msg_012,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0079;message_0194;message_0178
+msg_064,mute,scam,Message asks for OTP/PIN/login code or account verification; urgency is combined with a payment/credential ask (classic scam combo).,0.87,message_0087;message_0183;message_0201
+msg_103,notify,urgent,Contains explicit time-pressure language; direct personal message.,0.86,message_0065;message_0382;message_0049
+msg_031,notify,event,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.83,message_0227;message_0249;message_0055
+msg_057,notify,personal,"Sender directly asks this user for a reply/action; directly @mentions this user, overriding the group's usual quiet default.",0.73,message_0003;message_0169;message_0059
+msg_087,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.85,message_0391;message_0389;message_0164
+msg_067,digest,event,Sent by a group admin.,0.48,message_0068;message_0098;message_0029
+msg_039,digest,event,"Sent by a group admin; directly @mentions this user, overriding the group's usual quiet default.",0.48,message_0364;message_0051;message_0037
+msg_082,digest,unknown,"Low-signal media message (voice note, 7.86s); no urgency, strong usefulness, or risk detected.",0.40,message_0218;message_0380;message_0397
+msg_066,mute,spam,User has ignored/dismissed 2 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0188;message_0187
+msg_049,digest,business_update,User has an active relationship/opt-in with this business.,0.68,message_0154;message_0291;message_0153
+msg_015,digest,personal,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0045;message_0023;message_0213
+msg_051,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0257;message_0104;message_0103
+msg_097,digest,personal,Direct personal message.,0.48,message_0054;message_0225;message_0167
+msg_089,digest,event,Direct personal message.,0.45,none
+msg_053,digest,forward,Sent by a group admin.,0.48,message_0411;message_0161;message_0253
+msg_059,notify,urgent,Contains explicit time-pressure language.,0.68,message_0045;message_0023;message_0053
+msg_024,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0257;message_0104;message_0103
+msg_072,mute,scam,Message asks for OTP/PIN/login code or account verification; message pushes a suspicious link/QR/domain.,0.91,message_0045;message_0023;message_0213
+msg_036,mute,scam,Business account 'RazorpayX Global Desk' is not verified; sender domain 'razorpayx-payouts.com' does not match RazorpayX Global Desk's official domain 'razorpayx.com'.,0.84,message_0283;message_0127;message_0128
+msg_076,mute,scam,Business account 'Talabat Refund Desk' is not verified; sender domain 'talabat-refund.com' does not match Talabat Refund Desk's official domain 'talabat.com'.,0.87,message_0208;message_0207;message_0159
+msg_055,notify,urgent,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.78,message_0166;message_0387;message_0165
+msg_102,digest,personal,Message asks the user for something specific; direct personal message.,0.48,message_0371;message_0230;message_0169
+msg_080,digest,personal,Sent by a group admin.,0.48,message_0130;message_0150;message_0190
+msg_093,digest,business_update,Message asks the user for something specific.,0.45,none
+msg_034,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0013;message_0014;message_0241
+msg_035,digest,business_update,User has an active relationship/opt-in with this business.,0.68,message_0281;message_0125;message_0126
+msg_101,digest,personal,Message asks the user for something specific; direct personal message.,0.48,message_0370;message_0229;message_0268
+msg_041,digest,business_update,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0137;message_0138
+msg_011,mute,forward,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0014;message_0013;message_0077
+msg_110,mute,scam,Message text attempts to instruct the router directly (prompt-injection pattern); message asks for OTP/PIN/login code or account verification.,0.95,message_0238;message_0381
+msg_095,mute,scam,Message text attempts to instruct the router directly (prompt-injection pattern); message asks for OTP/PIN/login code or account verification.,0.95,message_0087;message_0183;message_0201
+msg_074,mute,scam,Message pressures an urgent/upfront payment; media flag: placeholder template flyer.,0.95,message_0389;message_0203;message_0358
+msg_073,notify,forward,Contains explicit time-pressure language.,0.68,message_0184;message_0088;message_0202
+msg_054,mute,spam,User has ignored/dismissed 3 similar past message(s) from this sender; no new signal justifies interrupting now.,0.93,message_0389;message_0358;message_0164
+msg_068,digest,personal,"No strong urgency, usefulness, repetition, or risk signal found; routed by default fallback.",0.48,message_0191;message_0192
+msg_100,notify,urgent,Contains explicit time-pressure language; direct personal message.,0.86,message_0362;message_0228;message_0117
+msg_062,digest,forward,Sent by a group admin.,0.48,message_0043;message_0271;message_0410
+msg_096,digest,personal,Direct personal message.,0.45,none
+msg_043,notify,forward,Contains explicit time-pressure language; sent by a group admin.,0.73,message_0269;message_0130;message_0150
+msg_077,notify,event,Contains explicit time-pressure language; sender directly asks this user for a reply/action.,0.83,message_0051;message_0364;message_0403
+msg_081,digest,unknown,"Low-signal media message (voice note, 6.92s); no urgency, strong usefulness, or risk detected.",0.40,message_0217
+msg_025,notify,business_update,Contains explicit time-pressure language.,0.68,message_0239;message_0004;message_0105
+msg_084,mute,spam,User has ignored/dismissed 1 similar past message(s) from this sender; no new signal justifies interrupting now.,0.80,message_0220
+msg_022,mute,spam,Message pressures an urgent/upfront payment; message pushes a suspicious link/QR/domain.,0.91,message_0151;message_0099;message_0149
